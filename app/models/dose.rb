@@ -5,4 +5,3 @@ class Dose < ApplicationRecord
   validates_uniqueness_of :ingredient_id, :scope => :cocktail_id
 end
 
-
